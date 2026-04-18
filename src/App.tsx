@@ -433,26 +433,6 @@ export default function App() {
       </section>
 
 
-      {/* FAQ */}
-      <section id="faq" className="py-24 px-4">
-        <div className="max-w-3xl mx-auto">
-          <ScrollReveal direction="up">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">Perguntas Frequentes</h2>
-              <p className="text-xl text-gray-400">Tudo que você precisa saber</p>
-            </div>
-          </ScrollReveal>
-
-          <div className="space-y-6">
-            <ScrollReveal direction="up" delay={0}><FAQItem question="Como posso testar?" answer="Oferecemos acesso total gratuito para que você configure seus primeiros fluxos e valide sua operação." /></ScrollReveal>
-            <ScrollReveal direction="up" delay={150}><FAQItem question="Preciso saber programar?" answer="Zero! Se você usa Telegram, você consegue usar o TelePulse." /></ScrollReveal>
-            <ScrollReveal direction="up" delay={300}><FAQItem question="Funciona com Canais e Grupos privados?" answer="Sim, desde que você seja administrador ou membro." /></ScrollReveal>
-            <ScrollReveal direction="up" delay={450}><FAQItem question="Perde a qualidade das imagens/vídeos?" answer="Nunca! Tudo é copiado com qualidade 100% original." /></ScrollReveal>
-            <ScrollReveal direction="up" delay={600}><FAQItem question="E se os Canais ou Grupos usarem emojis premium?" answer="Funcionam perfeitamente, emojis premium são preservados." /></ScrollReveal>
-          </div>
-        </div>
-      </section>
-
       {/* Final CTA */}
       <section className="relative py-24 px-4 text-center overflow-hidden">
         <div className="absolute inset-0 bg-[#161B26]/60 backdrop-blur-sm" style={{ maskImage: 'linear-gradient(to top, black, transparent)', WebkitMaskImage: 'linear-gradient(to top, black, transparent)' }} />
@@ -471,6 +451,26 @@ export default function App() {
               Começar Agora <ArrowRight size={24} />
             </button>
           </ScrollReveal>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="py-24 px-4">
+        <div className="max-w-3xl mx-auto">
+          <ScrollReveal direction="up">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">Perguntas Frequentes</h2>
+              <p className="text-xl text-gray-400">Tudo que você precisa saber</p>
+            </div>
+          </ScrollReveal>
+
+          <div className="space-y-6">
+            <ScrollReveal direction="up" delay={0}><FAQItem question="Como posso testar?" answer="Oferecemos acesso total gratuito para que você configure seus primeiros fluxos e valide sua operação." /></ScrollReveal>
+            <ScrollReveal direction="up" delay={150}><FAQItem question="Preciso saber programar?" answer="Zero! Se você usa Telegram, você consegue usar o TelePulse." /></ScrollReveal>
+            <ScrollReveal direction="up" delay={300}><FAQItem question="Funciona com Canais e Grupos privados?" answer="Sim, desde que você seja administrador ou membro." /></ScrollReveal>
+            <ScrollReveal direction="up" delay={450}><FAQItem question="Perde a qualidade das imagens/vídeos?" answer="Nunca! Tudo é copiado com qualidade 100% original." /></ScrollReveal>
+            <ScrollReveal direction="up" delay={600}><FAQItem question="E se os Canais ou Grupos usarem emojis premium?" answer="Funcionam perfeitamente, emojis premium são preservados." /></ScrollReveal>
+          </div>
         </div>
       </section>
 
