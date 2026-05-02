@@ -74,12 +74,12 @@ export default function App() {
                   Clique no botão abaixo para abrir o bot no Telegram e obter seu código de acesso.
                 </p>
                 <a 
-                  href="https://t.me/encaminhadorabot" 
+                  href="https://t.me/tele_pulsebot?start=lp" 
                   target="_blank" 
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 bg-[#0088cc] hover:bg-[#0077b5] px-6 py-3 rounded-xl font-bold transition-all"
                 >
-                  Abrir @encaminhadorabot <ArrowRight size={18} />
+                  Abrir @tele_pulsebot <ArrowRight size={18} />
                 </a>
               </div>
 
