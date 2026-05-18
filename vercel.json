@@ -14,7 +14,7 @@
   "routes": [
     {
       "src": "/admin/api/(.*)",
-      "dest": "https://telepulse.discloudapp.com/admin/api/$1"
+      "dest": "https://telepulse.discloud.app/admin/api/$1"
     },
     {
       "src": "/admin",
