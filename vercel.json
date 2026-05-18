@@ -13,6 +13,27 @@
   ],
   "routes": [
     {
+      "src": "/admin/api/(.*)",
+      "dest": "https://telepulse.discloudapp.com/admin/api/$1"
+    },
+    {
+      "src": "/admin",
+      "status": 308,
+      "headers": { "Location": "/admin/" }
+    },
+    {
+      "src": "/admin/assets/(.*)",
+      "dest": "/admin/assets/$1"
+    },
+    {
+      "src": "/admin/(favicon\\.svg|noise\\.svg|index\\.html)",
+      "dest": "/admin/$1"
+    },
+    {
+      "src": "/admin/(.*)",
+      "dest": "/admin/index.html"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "server.ts"
     },
